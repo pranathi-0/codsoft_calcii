@@ -1,0 +1,70 @@
+Below is the documentation for the provided HTML and CSS code:
+
+## HTML Code Documentation:
+
+### `<!DOCTYPE html>`:
+- This declaration specifies that the document is an HTML5 document.
+
+### `<html lang="en">`:
+- The opening tag for the HTML document with the language attribute set to "en" (English).
+
+### `<head>`:
+- Contains meta-information about the HTML document like character encoding, viewport settings, and the document title.
+
+### `<meta charset="UTF-8">`:
+- Specifies the character encoding for the document, set to UTF-8 (Unicode Transformation Format - 8 bits).
+
+### `<meta name="viewport" content="width=device-width, initial-scale=1.0">`:
+- Sets the viewport properties, ensuring that the content width adjusts to the device's width and initial-scale is set to 1.
+
+### `<title>calculator</title>`:
+- Sets the title of the HTML document, which appears in the browser tab.
+
+### `<link rel="stylesheet" href="calci.css"/>`:
+- Links an external CSS file named "calci.css" to the HTML document to apply styles.
+
+### `<body>`:
+- Contains the visible content of the HTML document.
+
+### `<div class="container">`:
+- Represents the container div that holds the entire calculator.
+
+### `<div class="calculator">`:
+- Represents the calculator itself, which includes the display and input buttons.
+
+### `<form>`:
+- A form element to group the calculator's input buttons.
+
+### `<div class="display">`:
+- A container div for the display/input field of the calculator.
+
+### `<input type="text" name="display">`:
+- An input field of type "text" to display the calculator's input and output.
+
+### `<input type="button" value="AC" onclick="display.value = ''" class="operator">` and other input elements:
+- Input buttons representing calculator keys, each with specific values and onclick event handlers to perform respective operations.
+
+## CSS Code Documentation:
+
+### `*{}`:
+- Applies the following styles to all elements in the HTML document.
+
+### `.container{}`:
+- Styles the container div holding the calculator, setting its width, height, background color, and centering its content.
+
+### `.calculator{}`:
+- Styles the calculator div, including its background, padding, and border radius.
+
+### `.calculator form input{}`:
+- Styles the input elements within the calculator form, setting their appearance, width, height, border radius, box shadow, font size, color, and cursor.
+
+### `form .display{}`:
+- Styles the display container within the form, setting its display and margin.
+
+### `form .display input{}`:
+- Styles the display/input field, setting its text alignment, flex, font size, and box shadow.
+
+### `form input.equal{}` and `form input.operator{}`:
+- Styles the equal sign and operator buttons, setting their appearance and color.
+
+The provided HTML and CSS code create a simple calculator with a responsive design. The calculator allows users to perform basic arithmetic operations and displays the results on the input field. The design uses a dark theme with a blue color scheme.
